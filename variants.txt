@@ -1,0 +1,54 @@
+erreur:
+
+<body>
+  <main class="main">
+    <div class="container-wrapper">
+      <div class="container">
+        <a href="https://wplace.live" target="_blank" class="top-block">
+          <img src="wplacelogo.png" alt="Logo" class="pixel-image">
+          <div class="top-text">
+            <p>wplace</p>
+          </div>
+        </a>
+
+        <div class="main-text">
+          <h1>Pixel Timer</h1>
+          <p>We are experiencing some issues at the moment.<br>Please try again later.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    &copy; 2025 vxncz3. All rights reserved. | Not affiliated with Wplace.
+  </footer>
+
+    normal:
+
+    <body>
+  <main class="main">
+    <div class="container-wrapper">
+      <div class="container">
+        <a href="https://wplace.live" target="_blank" class="top-block">
+          <img src="wplacelogo.png" alt="Logo" class="pixel-image">
+          <div class="top-text">
+            <p>wplace</p>
+          </div>
+        </a>
+
+        <div class="main-text">
+          <h1>Pixel Timer</h1>
+          <p>Check how long it takes to fully reload your pixels so you can place them before reaching the limit.</p>
+        </div>
+
+        <input type="number" id="currentPixels" placeholder="Enter your current amount of paint charges" min="0">
+        <input type="number" id="pixels" placeholder="Enter your maximum paint charges capacity" min="1">
+        <button onclick="calculer()" disabled>Calculate</button>
+        <div id="result"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    &copy; 2025 vxncz3. All rights reserved. | Not affiliated with Wplace.
+  </footer>
