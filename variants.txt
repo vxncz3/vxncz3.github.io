@@ -23,6 +23,15 @@ erreur:
     &copy; 2025 vxncz3. All rights reserved. | Not affiliated with Wplace.
   </footer>
 
+(delete contrainerwrapper in css)
+bckp:
+
+.container-wrapper {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.7s forwards;
+}
+
     normal:
 
     <body>
