@@ -56,10 +56,6 @@ body {
   transition: transform 0.3s ease;
 }
 
-.top-block:hover {
-  transform: scale(1.05);
-}
-
 .pixel-image {
   width: 50px;
   height: 50px;
@@ -119,7 +115,6 @@ button {
 
 button:hover:not(:disabled) {
   background: #555;
-  transform: scale(1.02);
 }
 
 button:disabled {
